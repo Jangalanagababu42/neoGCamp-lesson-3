@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link href="./styles.css" rel="stylesheet">
     
 </head>
 <h1>nagababu's Component Library</h1>
@@ -19,40 +20,40 @@
 <hr>
 <h2>@container</h2>
 <h3>fluid container</h3>
-<div>
+<div class="container">
     this is a fluid container and it will go till the end of page
 </div>
 
 <h3>center container</h3>
-<div>
+<div class="container container-center">
     this is a centerted container and it will go till the specified width
 </div>
 
 <hr>
 <h2>@Links</h2>
-<a href="/">Primary Link</a>
-<a href="/">secondry Link</a>
+<a class="link link-primary" href="/">Primary Link</a>
+<a class="link link-secondary" href="/">secondry Link</a>
  <hr>
  <h2>@lists</h2>
  <h3>unordered list</h3>
  <hr>
  <h2>@lists</h2>
  <h3>unorderedlist</h3>
- <ul>
+ <ul class="list-non-bullet">
     <li>Item One</li>
     <li>Item Two</li>
     <li>Item Three</li>
  </ul>
 
  <h3>unordered inline list</h3>
-     <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+     <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
      </ul>
 
 <h3>reverse ordered list</h3>
-  <ol>
+  <ol reversed>
     <li>milk</li>
     <li>egg</li>
     <li>bread</li>
@@ -60,12 +61,12 @@
 
   <hr />
   <h2>@nav</h2>
-  <nav>
-    <div>iAmBrand</div>
-    <ul>
-       <li><a href="/"></a>home</li>
-       <li><a href="/"></a>products</li>
-       <li><a href="/"></a>about</li>
+  <nav class="navigation container">
+    <div class="nav-brand">iAmBrand</div>
+    <ul class="list-non-bullet nav-pills">
+       <li class="list-item-inline"><a class="link link-active" href="/">home</a></li>
+       <li class="list-item-inline"><a class="link" href="/">products</a></li>
+       <li class="list-item-inline"><a class="link" href="/">about</a></li>
     </ul>
   </nav>
 
