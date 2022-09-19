@@ -186,6 +186,7 @@ border: 1px solid var(--primary-color);
 }
 h2{
     text-align: center;
+    margin-top: 1.5rem;
 }
 .abovefooter{
     margin-bottom: 14rem;
