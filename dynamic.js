@@ -3,8 +3,8 @@ const dynamicContent=document.querySelector("#heading-inverted");
 const phrases=["WebDeveloper...", "Mentor..." , "Student...", "Professional..."];
 let phraseIndex=0;
 let letterIndex=0;
-const typingSpeed=150;
-const erasingSpeed=75;
+const typingSpeed=200;
+const erasingSpeed=100;
 
 function TypeNames(phrase){
 
