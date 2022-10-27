@@ -126,7 +126,7 @@ border: 1px solid var(--primary-color);
 }
 
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading #heading-inverted{
     color: var(--primary-color);
 }
 
